@@ -20,9 +20,14 @@
     <script>
         var corpo = window.document.body
         var p1 = window.document(getElementBtTagName('p')[1])
-        var d = window.document.getElement.ById('msg')
-        d.style.background = 'green'
-        d.innetText = 'Estou aguardando'
+        var d = window.document.getElementById('msg')
+        //d.style.background = 'green'
+        //d.innetText =  'Estou guardando...'
+        var d = window.document.getElementByName('msg')[0]
+        d.innerText = 'Olá'
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'blue'
+        
     </script>
 </body>
 </html>
